@@ -4,7 +4,7 @@ TThis animation mimics the magnetic field through a conductor with current flowi
 
 
 Video of the animation
-https://drive.google.com/file/d/19B7LJaljmIXDlRzJro1nh08OPED4nPrx/view?usp=sharing
+https://drive.google.com/file/d/1obZbuWQwfGJmrWkMyMp-G2pDy452lioI/view?usp=sharing
 
 minimum magnetic field animation
 ![Screen Shot 2022-04-15 at 10 04 45 AM](https://user-images.githubusercontent.com/102983688/163529674-237894c8-0fba-41ee-b928-cc5aebfa8f35.png)
