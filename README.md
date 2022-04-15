@@ -6,5 +6,9 @@ This animation mimics the magnetic field through a conductor with current flowin
 Video of the animation
 https://drive.google.com/file/d/19B7LJaljmIXDlRzJro1nh08OPED4nPrx/view?usp=sharing
 
-![Screen Shot 2022-04-15 at 10 16 06 AM](https://user-images.githubusercontent.com/102983688/163529659-fd78756a-f402-44b7-ad6f-4a15e1a18610.png)
+minimum magnetic field animation
 ![Screen Shot 2022-04-15 at 10 04 45 AM](https://user-images.githubusercontent.com/102983688/163529674-237894c8-0fba-41ee-b928-cc5aebfa8f35.png)
+
+maximum magnetic field animation
+![Screen Shot 2022-04-15 at 10 16 06 AM](https://user-images.githubusercontent.com/102983688/163529659-fd78756a-f402-44b7-ad6f-4a15e1a18610.png)
+
