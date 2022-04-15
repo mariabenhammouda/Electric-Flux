@@ -30,7 +30,7 @@ void ofApp::draw(){
     for ( int i=0;i<500;i+=25){
         for(int n=1; n<350; n+=5){
             ofSetColor(20, 75, 190,ofGetFrameNum() % (300));
-            ofDrawSphere(i*spaceRange, 0, (n*10), 10+(2*spaceRange));
+            ofDrawSphere(i*spaceRange, 0, (n*10), 5+(2*spaceRange));
             ofRotateDeg(time % (10+n));
             ofSetColor(255, 0, 0);
             ofSetLineWidth(3*spaceRange);
