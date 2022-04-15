@@ -29,7 +29,7 @@ void ofApp::draw(){
     ofTranslate(ofGetWidth()/2, ofGetHeight()/2,-1100);
     for ( int i=0;i<500;i+=25){
         for(int n=1; n<350; n+=5){
-            ofSetColor(173,216,230,ofGetFrameNum() % (300));
+            ofSetColor(65,105,225,ofGetFrameNum() % (300));
             ofDrawSphere(i*spaceRange, 0, (n*10), 10+(1.75*spaceRange));
             ofRotateDeg(time % (10+n));
             ofSetColor(255, 0, 0);
