@@ -1,2 +1,4 @@
 # CyclicalAnimation
  
+This animation mimics the magnetic field through a conductor with current flowing through it. The red line is the current whereas the spheres rotating around the wire are the magnetic field. The sliders allow the user to view the changes that occur to increase a magnetic field, the slider increases the space range between the spheres whilst also increasing the width of the line as a higher current induces a greater magnetic field. The algorithm is as follows: the line is a static line through 3d space. The animation is that of the spheres rotating around the wire, it is dependent on the degree of rotation where the argument is the time elapsed modulo a well-chosen constant to achieve a smooth animation. The spheres fade and reappear by controlling the opacity in the ofcolor function by a value of framenumber modulo 300.
+
