@@ -26,15 +26,15 @@ void ofApp::draw(){
     cam.begin();
     ofPushMatrix();
     
-    ofTranslate(ofGetWidth()/2, ofGetHeight()/2);
+    ofTranslate(ofGetWidth()/2, ofGetHeight()/2,-1100);
     for ( int i=0;i<500;i+=25){
         for(int n=1; n<350; n+=5){
             ofSetColor(20, 75, 190,ofGetFrameNum() % (300));
-            ofDrawSphere(i*spaceRange, 0, (n*10), 5+(2*spaceRange));
+            ofDrawSphere(i*spaceRange, 0, (n*10), 10+(1.5*spaceRange));
             ofRotateDeg(time % (10+n));
             ofSetColor(255, 0, 0);
-            ofSetLineWidth(3*spaceRange);
-            ofDrawLine(0, 0, (350*10), 0, 0, 0);
+            ofSetLineWidth(2*spaceRange);
+            ofDrawLine(0, 0, 0, 0, 0, 350*10);
           //  ofSetColor(255, 255, 255);
            // ofDrawBox(0, 0, (n*10), 30*spaceRange, 30*spaceRange, 30*spaceRange);
            
